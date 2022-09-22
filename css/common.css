@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tomleg');
+    src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+      url('../fonts/icomoon.woff?tomleg') format('woff'),
+      url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  .w{
+      width: 1200px;
+      margin: 0 auto;
+
+  }
+  /* 快捷导航栏 */
+  .shortcut{
+    height: 31px;
+    line-height: 31px;
+
+    
+}
+  .shortcut .fl ul {
+      float: left;
+  }
+  .shortcut  ul li{
+      float: left;
+      font-size: 12px;
+      
+
+  }
+.sign_up{
+    color: #c81623;
+}
+.shortcut .fr ul{
+    float: right;
+}
+.shortcut .fr ul li:nth-child(2n){
+    width: 1px;
+    height: 12px;
+    margin: 0 15px;
+    background-color: #666666;
+    margin-top: 9px; 
+}
+.arrow_icon::after{
+    content: '\e91e';
+    font-family: 'icomoon';
+    margin-left: 5px;
+    
+}
+/* 快捷导航栏end */
+/* 头部 */
+.header{
+    position: relative;
+    height: 105px;
+    
+}
+.header .logo h1{
+    position: absolute;
+    top: 26px;
+    width: 172px;
+    height: 56px;
+}
+.header .logo h1 a{
+    display: block;
+    width: 172px;
+    height: 56px;
+    background: url(../images/logo.png);
+    font-size: 0; 
+}
+.header .search{
+    position: absolute;
+    top: 26px;
+    left: 347px;
+    width: 537px;
+    height: 36px;
+    border: 2px solid #b1191a;
+}
+.header .search input{
+    float: left;
+    width: 454px;
+    height: 32px;
+    background-color: #fff;
+    padding-left: 5px;
+    font-size: 14px;
+}
+.header .search a{
+    display: block;
+    float: left;
+    width: 79px;
+    height: 32px;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+    line-height: 32px;
+    text-align: center;
+}
+.header .hotwords ul{
+    position: absolute;
+    left: 358px;
+    bottom: 20px;
+}
+.header .hotwords ul li{
+    float: left;
+    margin-right: 25px;
+}
+.header .shopcar{
+    position: absolute;
+    right: 64px;
+    top: 26px;
+    width: 140px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+}
+.header .shopcar::before{
+    content: '\e93a';
+    font-family: 'icomoon';
+    color: #b1191a;
+
+}
+.header .shopcar::after{
+    content: '\e920';
+    font-family: 'icomoon';
+}
+.tip{
+    position: absolute;
+    left: 106px;
+    top:-7px;
+    height: 14px;
+    padding:0 5px;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+    border-radius: 7px 7px 7px 0;
+    background-color: #e60012;
+}
+/* 头部结束 */
+/* 导航栏开始 */
+.nav{
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+.nav .dropdown{
+    float: left;
+    width: 209px;
+    height: 45px;
+    background-color: #b1191a;
+}
+.nav .dropdown p{
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    font-size: 16px;
+}
+.nav .dropdown ul{
+    margin-top: 2px;
+    width: 100%;
+    height: 466px;
+    background-color: #c81623;
+}
+.nav .dropdown ul li{
+    height: 31px;
+    font-size: 14px;
+    line-height: 31px;
+    color: #fff; 
+    margin-left: 5px;
+    padding-left: 10px;
+}
+.nav .dropdown ul li a::after{
+    content: '\e920';
+    font-family: 'icomoon';
+    float: right;
+    margin-right: 10px;
+}
+.nav .dropdown ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+.nav .dropdown ul li:hover a{
+    background-color: #fff;
+    color:#c81623;
+}
+.nav .navitems{
+    float: left;
+  
+}
+.nav .navitems ul li {
+    float: left;
+}
+.nav .navitems ul li a{
+    display: block;
+    height: 45px;
+    line-height: 45px;
+   padding: 0 25px;
+    font-size: 16px;
+    color: #666;
+
+}
+/* 尾部footer */
+.footer{
+   height: 417px;
+   background-color: #f5f5f5;
+   padding-top: 30px;
+   margin-top: 40px;
+}
+.mod_service{
+    height: 80px;
+    border-bottom: 1px solid #000;
+}
+.footer .mod_service ul li{
+    float: left;
+    padding-left: 20px;
+    width: 240px;
+    height: 79px;
+}
+.footer .mod_service ul li h4{
+    float: left;
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+    background: url(../images/icons.png) no-repeat -254px -4px;
+    vertical-align: middle;
+}
+.footer .mod_service ul li h3{
+    margin: 3px 0;
+}
+.mod_help{
+    padding-left: 25px;
+    height: 188px;
+    padding-top: 20px;
+    border-bottom:1px solid #000;
+}
+.mod_help dl{
+    float: left;
+    margin-right: 130px;
+
+}
+.mod_help dl:last-child{
+    margin-right: 25px;
+}
+.mod_help dl dt{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #000;
+}
+.mod_help dl dd{
+    font-size: 12px;
+}
+.mod_copyright{
+    text-align: center;
+}
+.mod_copyright h4{
+    margin: 10px 0;
+}
+.erweima{
+    text-align: center;
+}

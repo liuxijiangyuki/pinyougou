@@ -1,0 +1,117 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    height: 85px;
+    border-bottom: 2px solid #b1191a;
+    padding-top: 18px;
+}
+.registerarea{
+    height: 520px;
+    border: 1px solid #dfdfdf;
+
+}
+.reg_form{
+    width: 600px;
+    height: 390px;
+    margin: 50px auto 0;
+}
+.reg_hd{
+    width: 100%;
+    height: 42px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.reg_hd h4{
+    float: left;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333;
+    line-height: 42px; 
+}
+.sign{
+    float: right;
+    line-height: 42px;
+    padding-right: 10px;
+}
+.sign a{
+    color: #c81623;
+}
+.reg_form{
+    margin-top: 55px;
+}
+.reg_form ul li{
+    margin-bottom: 30px;
+}
+.reg_form ul li label{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    font-size: 14px;
+    color: #4c4c4c;
+}
+.reg_form ul li .shuru{
+    width: 240px;
+height: 36px;
+margin: 0 15px;
+border: 1px solid #000;
+}
+.reg_form ul li .error{
+    font-size: 12px;
+    color: #df3033;
+}
+.error_icon{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/error.png) no-repeat;
+    vertical-align: middle;
+}
+.reg_form ul li .success{
+    font-size: 12px;
+    color: green;
+}
+.success_icon{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/success.png) no-repeat;
+    vertical-align: middle;
+}
+.safe{
+    padding-left: 170px;
+}
+.di{
+    margin-left: 10px;
+    padding: 0 12px;
+    background-color: #de1111;
+}
+.zhong{
+    padding: 0 12px;
+    background-color: #40b83f;
+}
+.gao{
+    padding: 0 12px;
+    background-color: #f79100;
+}
+.treaty{
+    margin-left: 100px;
+}
+.sign_in{
+    display: block;
+    width: 200px;
+    height: 35px;
+    margin-left: 95px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background-color: #c81623;
+}
+.mod_copyright{
+    text-align: center;
+}
+.mod_copyright h4{
+    margin: 10px 0;
+}

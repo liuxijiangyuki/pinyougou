@@ -1,0 +1,220 @@
+.main{
+    widows: 980px;
+    height: 454px;
+    margin-left: 220px;
+    margin-top: 10px;
+
+}
+.main .focus ul li{
+    float: left;
+    width: 720px;
+    height: 454px;
+}
+.main .newsflash{
+    float: right;
+    width: 250px;
+    height: 454px;
+    border: 1px solid #e4e4e4;
+}
+.main .newsflash .new{
+    height: 164px;
+    width: 250px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.new-hd{
+    height: 32px;
+    padding: 0 15px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+.main .new h3
+{
+    float: left;
+    height: 32px;
+    line-height: 32px;
+}
+.main .new .more{
+    float: right;
+    height: 32px;
+    line-height: 32px;
+}
+.main .new .more::after{
+    content: '\e920';
+    font-family: 'icomoon';
+}
+.new_bd{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.new_bd ul li{
+    height: 24px;
+    line-height: 24px;
+}
+.newsflash .life{
+    width: 248px;
+    height: 208px;
+    overflow: hidden;
+}
+.newsflash .life ul li{
+    float: left;
+    width: 62px;
+    height: 69px;
+    padding-top: 10px;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    text-align: center;
+}
+.newsflash .life ul li:nth-child(4n){
+    border-bottom: 1px solid #e4e4e4;
+    border-right:0;
+}
+.newsflash .life ul li i{
+    display: inline-block;
+    width: 19px;
+    height: 28px;
+    background-color: black;
+    background: url(../images/icons.png) no-repeat -19px -15px;
+}
+.newsflash .adv img{
+    display: block;
+    width: 100%;
+    margin-top: 6px;
+}
+/* 推荐模块 */
+.recom{
+    margin-top: 10px;
+    height: 164px;
+}
+.recom .recom_hd{
+    float: left;
+    width: 200px;
+    height: 164px;
+    background-color: #5c5251;
+    background: url(../images/今日推荐\ .png) no-repeat;
+}
+.recom .recom_bd{
+    float: left;
+    width: 998px;
+    height: 164px;
+    padding-top: 10px;
+    padding-left: 5px;
+    background-color: #ebebeb;
+}
+.recom .recom_bd ul li:nth-child(2n-1){
+    float: left;
+    width: 114px;
+    height: 164px;
+    padding-left: 10px;
+}
+.recom .recom_bd ul li p:first-child{
+    font-size: 16px;
+    color: #333333;
+    padding-bottom: 5px;
+}
+.recom .recom_bd ul li p:nth-child(2){
+    display: inline-block;
+    font-size: 14px;
+    padding: 1px;
+    background-color: #00a0e8;
+    color: #fff;
+}
+.recom .recom_bd ul li:nth-child(2n){
+    float: left;
+    width: 130px;
+    height: 164px;
+    padding-left: 10px;
+    padding-top: 13px;
+}
+.recom .recom_bd ul li{
+    position: relative;
+}
+.recom .recom_bd ul li:nth-child(2n)::after{
+content: '';
+position: absolute;
+right: 0;
+top: 1px;
+width: 1px;
+height: 144px;
+background-color: #ddd;
+}
+.recom .recom_bd ul li:last-child::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 1px;
+    width: 0px;
+    height: 144px;
+    background-color: #ddd;
+    }
+    /* 楼层部分制作 */
+    .floor1_hd{
+        height: 48px;
+        margin-top: 20px;
+        border-bottom: 2px solid #c81623;
+    }
+    .floor1_hd .floor_item{
+        float: left;
+        height: 48px;
+        font-size: 18px;
+        color: #c81623;
+        line-height: 48px;
+    }
+    .floor1_hd .tab_list{
+        float: right;
+        height: 48px;
+    }
+    .floor1_hd .tab_list ul li{
+        float: left;
+        line-height: 48px;
+    }
+    .floor1_hd .tab_list ul li a{
+        margin: 0 16px;
+        font-size: 12px;
+    }
+    .tab_items{
+        height: 360px;
+    }
+    .tab_items>div{
+        float: left;
+    }
+    .item1{
+        width: 210px;
+        height: 360px;
+    }
+    .item2{
+        width: 330px;
+        height: 360px;
+    }
+    .item3{
+        width: 220px;
+        height: 360px;
+    }
+    .tab_items {
+        padding-left: 13px;
+    }
+    .tab_items ul li{
+        float: left;
+        width: 84px;
+        height: 34px;
+        margin-right: 13px;
+        line-height: 34px;
+        text-align: center;
+        font-size: 12px;
+        color: #666666;  
+        border-bottom: 1px solid #ededed;    
+    }
+    .tab_items .item1 section {
+        float: left;
+        margin: 25px 25px 0 15px;
+    }
+    .floor_1{
+        width: 1215px;
+    }
+    .tab_items .item3 .tt{
+display: block;
+height: 50%;
+padding-left: 20px;
+padding-top: 24px;
+    }
+    .tab_items .item3 .tt:first-child{
+        border-bottom: 1px solid #ededed;
+    }

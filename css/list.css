@@ -1,0 +1,122 @@
+/* 秒杀 */
+.hk{
+    position: absolute;
+    top: 43px;
+    left:200px; 
+    height: 33px;
+    line-height: 33px;
+    border-left: 1px solid #b1191a;
+    padding-left: 14px;
+}
+/* 列表导航栏 */
+.lnav_hd{
+    float: left;
+    line-height: 47px;
+}
+.lnav_bd{
+    float: left;
+    line-height: 47px;
+}
+.lnav_hd ul li{
+    float: left;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.lnav_bd ul li{
+    display: block;
+    float: left;
+    padding: 0 25px;
+    font-size: 12px;
+    color: #000;
+}
+.lnav_bd ul li:last-child{
+    padding: 0 0;
+}
+.lnav_bd ul li:last-child::after{
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+/* 列表主体部分 */
+.contain_hd{
+    height: 120px;
+}
+.contain_bd ul li:hover{
+    border: 1px solid #e60012;
+}
+.contain_bd ul{
+    overflow: hidden;
+}
+.contain_bd ul li{
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    border: 1px solid transparent;
+
+}
+.contain_bd ul li:nth-child(4n){
+    margin-right: 0;
+}
+.contain_bd ul li h4{
+    padding: 0 13px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #666666;
+}
+.price{
+    margin-top: 10px;
+    padding-left: 10px;
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+}
+.now_price{
+    float: left;
+    font-size: 22px;
+    color: #e60012;
+}
+.after_price{
+    float: left;
+    line-height: 42px;
+    font-size: 14px;
+    color: #a4a4a4;
+    margin-left: 5px;
+}
+.quantity{
+    padding-left: 10px;
+}
+.quantity1{
+    float: left;
+}
+.quantity2{
+    float: left;
+    width: 130px;
+    height: 12px;
+    margin: 2px 12px 0 12px;
+    border-radius: 12px;
+    border: 1px solid #e60012;
+    
+}
+.quantity2 .hong{
+    float: left;
+    width: 70%;
+    height: 100%;
+    background-color: #e60012;
+}
+.quantity3{
+    float: left;
+}
+.contain_bd ul li>a{
+    display: block;
+    float: left;
+    width: 100%;
+    height: 55px;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: #b1191a;
+}
